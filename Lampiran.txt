@@ -1,0 +1,6 @@
+Perintah SQL
+INSERT INTO notes (title, datetime, note) VALUES (?, ?, ?)
+SELECT * FROM notes
+SELECT * FROM notes WHERE id = ?
+UPDATE notes SET title = ?, datetime = ?, note = ? WHERE id = ?
+DELETE FROM notes WHERE id = ?
